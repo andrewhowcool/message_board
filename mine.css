@@ -1,0 +1,274 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background: #1695A3;
+}
+
+.whole {
+  top: 1%;
+  width: 100%;
+}
+
+.title {
+  margin-top: 15%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.post {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.post .nameANDpost {
+  height: 50px;
+  background: #225378;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.post .nameANDpost input {
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 30%;
+  padding: 2px;
+  font-family: sans-serif;  
+}
+
+.post .nameANDpost button {
+  margin-left: 50%;
+  width: 10%;
+}
+
+.post .content {
+  height: 120px;
+  width: 100%;
+}
+
+.post .content textarea {
+  height: 100%;
+  width: 100%;
+  padding-left: 18px; 
+  padding-top: 10px;
+  box-sizing: border-box;
+  background: #F3FFE2;  
+  font-family: sans-serif;  
+  border-radius: 0px 0px 10px 10px;
+  font-size: 18px;
+}
+
+.comment {
+  width: 100%;  
+  transition: 1s;
+  margin-top: 5%;
+  padding: 15px;
+  box-sizing: border-box;
+  background: #F3FFE2;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+
+.comment .display {
+  border-bottom: solid 3px #444;
+  font-family: sans-serif;
+}
+
+.comment .display h4 {
+  margin-top: 10px;
+  font-size: 22px;
+  margin-bottom: 0px;
+  font-family: sans-serif;  
+  color: #225378;
+  font-weight: bold;  
+}
+
+.comment .display p {
+  margin-left: 4%;
+  display: inline-block;
+  font-size: 18px;
+  color: #444;
+  font-family: sans-serif;  
+}
+
+.comment .comment_input {
+  width: 100%;
+  font-family: sans-serif;  
+  margin-top: 3%;  
+  border-top: solid 3px #444;
+  padding-top: 3%;
+}
+
+.comment .comment_input input, .comment .comment_input .comment_content {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: sans-serif;  
+  font-family: sans-serif;  
+
+}
+
+.comment .comment_input input {
+  width: 25%;
+  padding: 5px;
+  height: 30px;
+  background: #F3F3F3;
+}
+
+.comment .comment_input .comment_content {
+  position: absolute;
+  background: #F3F3F3;
+  width: 70%;
+  height: 30px;
+  padding: 6px;
+  margin-left: 5%;
+}
+
+.comment .comment_input h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 20px;
+  font-family: sans-serif;  
+}
+
+.comment .comment_block {
+  background: #AAAAAA;
+  margin-top: 15px;
+  padding: 4px;
+  font-family: sans-serif;  
+  height: 40px;
+  border-radius: 10px;
+}
+
+
+.comment .comment_block p, .comment .comment_block h5 {
+  display: inline-block;
+  margin-top: 1%;
+  font-family: sans-serif;  
+}
+
+.comment .comment_block h5 {
+  font-size: 18px;
+  color: #225378;
+  padding-left: 1%;
+  padding-top: 2px;
+  font-weight: bold;  
+}
+
+.comment .comment_block p {
+  font-size: 16px;
+  margin-left: 40px;
+  padding-top: 2px;
+}
+
+.comment .comment_block h6 {
+  position: absolute;
+  display: inline-block;
+  right: 20px;
+  font-size: 14px;
+  margin: 0px;
+  padding: 5px;
+  font-family: sans-serif;  
+  padding-top: 12px; 
+}
+
+.comment .comment_block .reply_button {
+  right: 40px;
+}
+
+.comment .comment_block .reply_button:hover {
+  cursor: pointer;
+}
+
+.comment .comment_block .delete:hover {
+  cursor: pointer;
+}
+
+.comment .reply_input .reply_input_content {
+  width: 66%;
+  height: 20px;
+  padding: 2px;
+  padding-top: 3px;
+  padding-left: 20px;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-left: 5.2%;
+}
+
+.comment .reply_input .reply_input_name{
+  width: 22.5%;
+  height: 20px;
+  padding: 2px;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.comment .reply_block {
+  padding: 5px 20px;
+  border-left: solid 3px #444;  
+  margin-left: 10%;
+}
+
+.comment .reply_block h5, .comment .reply_block p, .comment .reply_block h6 {
+  display: inline-block;
+  margin: 0px;
+  vertical-align: middle;
+  font-family: sans-serif;  
+}
+
+.comment .reply_block h6, .comment .reply_block p {
+  margin-left: 20px;
+}
+
+.comment .reply_block h5 {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+  color: #225378;  
+}
+
+.comment .reply_block p {
+  font-size: 14px;
+}
+
+.comment .reply_block h6 {
+  position: absolute;
+  font-size: 14px;
+  margin-left: 50px;
+  right: 20px;
+  padding: 5px;
+  padding-top: 2px;
+}
+
+.comment .reply_block h6:hover {
+  cursor: pointer;
+}
+
+.pic{
+  display: inline-block;
+  float: left;
+  border-radius: 300px;
+}
+
+#pic_test{
+/*  padding-top: 5%;*/
+  margin-top: 1.4%;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+#pic_test2{
+  margin-top: 0.5%;
+  margin-right: 2%;  
+}
+
+img{
+
+  height: 20px;
+  width: 20px;
+}
